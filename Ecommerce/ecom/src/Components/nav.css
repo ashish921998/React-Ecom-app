@@ -1,0 +1,165 @@
+* {
+  overflow-x: hidden;
+  background-color: #1f2327;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-size: larger;
+  max-width: 100%;
+  color: white;
+  height: 60px;
+  padding: 0px 200px;
+}
+
+.ps {
+  color: #f5c991;
+}
+
+.dis {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 7px;
+  color: aliceblue;
+  margin: 0px 0px;
+  font-size: 25px;
+}
+
+.card {
+  box-shadow: 8px 8px 20px grey;
+  width: 350px;
+  margin: 40px 70px;
+  transition: transform 0.2s;
+  border-radius: 15px;
+  color: #f5c991;
+}
+
+.card :hover {
+  cursor: pointer;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 20px 40px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+.card h2 {
+  margin: 10px 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: grey;
+}
+
+.laptop {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 0px;
+  color: #1f2327;
+}
+
+.footer div {
+  margin: 50px 100px;
+}
+
+.h2 a {
+  color: #f5c991;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.social {
+  color: #f5c991;
+  text-align: center;
+}
+
+.details {
+  display: flex;
+}
+
+.add button {
+  background-color: orangered;
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+}
+
+.add {
+  margin: 50px 100px;
+  width: 500px;
+  align-items: center;
+  color: grey;
+}
+
+.add button {
+  width: 100px;
+}
+
+.details img {
+  margin: 80px 50px 50px 100px;
+  max-width: 400px;
+}
+
+.form {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.form input {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+}
+
+.submit {
+  width: 50px;
+}
+
+.ama {
+  width: 100%;
+  height: 500px;
+}
+
+.delete {
+  background-color: #1dc7dd;
+  width: 80px;
+  height: 30px;
+  margin-right: 100px;
+}
+
+.checkout {
+  background-color: #1dc7dd;
+  width: 80px;
+  height: 40px;
+  color: white;
+  margin: 50px 100px 20px 800px;
+  border-radius: 8px;
+  color: white;
+}
